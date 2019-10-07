@@ -79,7 +79,7 @@ const useStyles = makeStyles(theme => ({
 const App = () => {
     const classes = useStyles();
     return (
-        <div style = {{marginLeft:400,marginRight:400}} id = {'main'}>
+        <div style = {{marginLeft:'21%',marginRight:'21%'}} id = {'main'}>
             <div>
                 <Grid container spacing = {2} className = {classes.gridContainer}>
                     <Grid item xs = {8} >
