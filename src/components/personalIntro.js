@@ -3,7 +3,7 @@ import {Grid, Avatar, Typography,makeStyles} from '@material-ui/core'
 
 const useStyles = makeStyles(theme => ({
     gridContainer: {
-        height:'240px',
+        // height:'240px',
         display: 'flex',
         alignItems: 'flex-center',
         paddingTop: '10px',

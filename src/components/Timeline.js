@@ -4,7 +4,7 @@ import { Step,Grid, Avatar,makeStyles} from '@material-ui/core';
 
 const useStyles = makeStyles(theme => ({
     gridContainer: {
-        height:'130px',
+        height:'100%',
         alignItems: 'flex-start',
     },
     gridItem1: {
@@ -14,8 +14,10 @@ const useStyles = makeStyles(theme => ({
         right : '0%',
     },
     timeLineElement: {
-        verticalAlign : 'middle',
-        textAlign:'center',
+        display:'flex',
+        flexDirection:'column',
+        alignItems:'center',
+        height:'100%'
     },
     circleBase: {
         margin: 'auto',
@@ -28,14 +30,15 @@ const useStyles = makeStyles(theme => ({
     },
     verticalLine: {
         display : 'inline-block',
-        height: '110px',
+        minHeight: '110px',
+        height:'100%',
         borderLeft: '2px solid black',
     },
     avatarType: {
         display: 'block',
         margin: 'auto',
-        width:'120px',
-        height:'120px',
+        width:'110px',
+        height:'110px',
         alignContent:'center',
         position: 'relative'
     }

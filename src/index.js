@@ -1,8 +1,7 @@
-import React, { Component } from 'react'
+import React from 'react'
 import ReactDom from 'react-dom'
 import Grid from '@material-ui/core/Grid'
 import Typography from '@material-ui/core/Typography'
-import Avatar from '@material-ui/core/Avatar'
 import VerticalTimeline from './components/Timeline'
 import PersonalIntro from './components/personalIntro'
 import Publications from './components/Publication'
@@ -53,16 +52,16 @@ const data = {
         {
             title:'Tac-Simur: Tactic-based Simulative Visual Analytics of Table Tennis',
             authors:'Jiachen Wang, Kejian Zhao, Dazhen Deng, Anqi Cao, Xiao Xie, Zheng Zhou, Hui Zhang, and Yingcai Wu',
-            conference:'To appear in IEEE TVCG (IEEE VAST 2019)',
-            paper_url:'https://zjuidg.org/files/Tac-Simur.pdf',
+            conference:'IEEE Transactions on Visualization and Computer Graphics, Vol. 26, Issue 1, Page 407-417, 2020.',
+            paper_url:'https://zjuidg.org/source/projects/tacSimur/Tac-Simur.pdf',
             video_url:'https://www.youtube.com/watch?v=_I6cne3Wd4U&feature=youtu.be',
             src:'./imgs/tac-simur.png'
         },
         {
             title:'ForVizor: Visualizing Spatio-Temporal Team Formations in Soccer',
             authors:'Yingcai Wu, Xiao Xie, Jiachen Wang, Dazhen Deng, Hongye Liang, Hui Zhang, Shoubin Cheng, and Wei Chen',
-            conference:'IEEE TVCG, 25.1 (2019), 65-75.(IEEE VAST 2018)',
-            paper_url:'https://zjuidg.org/files/forvizor.pdf',
+            conference:'IEEE Transactions on Visualization and Computer Graphics (IEEE VAST 2018), Vol. 25, Issue 1, Page 65-75, 2019.',
+            paper_url:'https://zjuidg.org/source/projects/forvizor/forvizor.pdf',
             video_url:'https://www.youtube.com/watch?v=03U7PESGkOQ',
             src:'./imgs/forvizor.png'
         },

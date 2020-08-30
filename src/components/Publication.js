@@ -9,12 +9,10 @@ const useStyles = makeStyles(theme => ({
     gridContainer: {
         marginBottom: '30px',
         display: 'flex',
-        height:'190px',
         alignItems: 'flex-start',
     },
     gridItem1: {
         position: 'relative',
-        height:'190px',
         textAlign : 'left',
     },
     face: {
