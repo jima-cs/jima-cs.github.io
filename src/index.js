@@ -126,7 +126,9 @@ const App = () => {
                         
                     </Grid>
                     <Grid className={classes.avatar} item xs = {2}>
-                        <img src={logo} width = '60px'/>
+                        <a  href='https://zjuidg.org/'>
+                        <img src={logo}  width = '60px'/>
+                        </a>
                     </Grid>
                 </Grid>
             </div>
