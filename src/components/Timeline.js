@@ -25,14 +25,15 @@ const useStyles = makeStyles(theme => ({
         width: '20px',
         height: '20px',
         left:'50%',
-        background: '#3f51b5',
+        background: '#A6DAF7',
         border: '0px solid red',
     },
     verticalLine: {
+        color:'#53737B',
         display : 'inline-block',
         minHeight: '110px',
         height:'100%',
-        borderLeft: '2px solid black',
+        borderLeft: '2px solid',
     },
     avatarType: {
         display: 'block',
@@ -73,7 +74,7 @@ function TimelineEntry(props){
                 </Typography>
             </Grid>
             <Grid item xs = {2}>
-                <Avatar src = {element.src} className={classes.avatarType}/>
+                <Avatar variant="square" src = {element.src} className={classes.avatarType}/>
             </Grid>
         </Grid>
     )

@@ -47,12 +47,13 @@ function PublicationElement(props){
                     {element.conference}
                 </Typography>
                 <div>
-                    <Button target="_blank" href={element.paper_url} variant="contained" color="secondary" className={classes.button}>
+                    <Button target="_blank" href={element.paper_url} variant="contained" style={{backgroundColor:"#A6D2F7", color:'#FDFEFE'}} className={classes.button}>
                         Paper
                     </Button>
-                    <Button target="_blank" href={element.video_url} variant="contained" color="primary" className={classes.button}>
+                    {
+                        element.video_url == ''?null:<Button target="_blank" href={element.video_url} variant="contained" style={{backgroundColor:"#A6BDF7", color:'#FDFEFE'}} className={classes.button}>
                         Video
-                    </Button>
+                    </Button>}
                 </div>
             </Grid>
             

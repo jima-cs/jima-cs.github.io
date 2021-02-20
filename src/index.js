@@ -1,11 +1,12 @@
 import React from 'react'
 import ReactDom from 'react-dom'
 import Grid from '@material-ui/core/Grid'
-import Typography from '@material-ui/core/Typography'
+import {Avatar, Typography} from '@material-ui/core'
 import VerticalTimeline from './components/Timeline'
 import PersonalIntro from './components/personalIntro'
 import Publications from './components/Publication'
 import { makeStyles } from '@material-ui/styles'
+import logo from './assets/IDG-simplified.gif';
 
 const data = {
     education:[
@@ -30,6 +31,15 @@ const data = {
     ],
     experience:[
         {
+            duration:'Dec. 2020 - Apr. 2021',
+            city:'Beijing',
+            country:'China',
+            title:'Research Intern',
+            affiliation:'Microsoft Research Asia',
+            description:'Under the supervision of Dr. Weiwei Cui',
+            src:'./imgs/microsoft.png'
+        },
+        {
             duration:'Sep. 2018 - Present',
             city:'Hangzhou',
             country:'China',
@@ -49,6 +59,22 @@ const data = {
         }
     ],
     publications:[
+        {
+            title:'EventAnchor: Reducing Human Interactions in Event Annotation of Racket Sports Videos',
+            authors:'Dazhen Deng, Jiang Wu, Jiachen Wang, Yihong Wu, Xiao Xie, Zheng Zhou, Hui Zhang, Xiaolong Zhang, and Yingcai Wu',
+            conference:'CHI Conference on Human Factors in Computing Systems (CHI \'21)',
+            paper_url:'https://zjuidg.org/source/projects/eventanchor/eventanchor.pdf',
+            video_url:'',
+            src:'./imgs/eventanchor.png'
+        },
+        {
+            title:'PassVizor: Toward Better Understanding of the Dynamics of Soccer Passes',
+            authors:'Xiao Xie, Jiachen Wang, Hongye Liang, Dazhen Deng, Shoubin Cheng, Hui Zhang, Wei Chen, and Yingcai Wu',
+            conference:'IEEE Transactions on Visualization and Computer Graphics, 2021.',
+            paper_url:'https://zjuidg.org/source/projects/passvizor/passvizor.pdf',
+            video_url:'',
+            src:'./imgs/passvizor.png'
+        },
         {
             title:'Tac-Simur: Tactic-based Simulative Visual Analytics of Table Tennis',
             authors:'Jiachen Wang, Kejian Zhao, Dazhen Deng, Anqi Cao, Xiao Xie, Zheng Zhou, Hui Zhang, and Yingcai Wu',
@@ -70,8 +96,15 @@ const data = {
 const useStyles = makeStyles(theme => ({
         gridContainer: {
             height:'80px',
-            alignItems: 'flex-center',
             marginTop: '20px',
+            display:'flex',
+            alignItems:'center',
+            backgroundColor:'#A6DAF7'
+        },
+        avatar: {
+            backgroundColor:theme.primary,
+            height: '80px',
+            width: '80px'
         }
     }));
 
@@ -80,17 +113,20 @@ const App = () => {
     return (
         <div style = {{marginLeft:'21%',marginRight:'21%'}} id = {'main'}>
             <div>
-                <Grid container spacing = {2} className = {classes.gridContainer}>
+                <Grid 
+                    container 
+                    spacing = {2} 
+                    className = {classes.gridContainer}>
                     <Grid item xs = {8} >
-                        <Typography variant = 'h3'>
+                        <Typography variant = 'h3' style={{color:'#FDFEFE'}}>
                             Dazhen Deng (邓达臻)
                         </Typography>
                     </Grid>
                     <Grid item xs = {2}>
                         
                     </Grid>
-                    <Grid item xs = {2} style = {{textAlign:"center"}}>
-                        <img src='./imgs/zjuidg.png' width = '60px'/>
+                    <Grid className={classes.avatar} item xs = {2}>
+                        <img src={logo} width = '60px'/>
                     </Grid>
                 </Grid>
             </div>
@@ -99,9 +135,9 @@ const App = () => {
             </div>
             <div style={{marginBottom:'30px'}}>
                 <Typography variant = 'h4' style={{marginBottom:'30px'}}>
-                    Education
+                    Experience
                 </Typography>
-                <VerticalTimeline experience={data.education}/>
+                <VerticalTimeline experience={data.experience}/>
             </div>
             {/* <div>
                 <Typography variant = 'h4'>

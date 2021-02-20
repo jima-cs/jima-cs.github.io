@@ -44,7 +44,7 @@ function PersonalIntro(props) {
         </Grid>
         <Grid item xs = {10} className={classes.gridItem2}>
             <Typography variant = 'body1' className = {classes.typoType1}>
-                I’m a 2nd-year Computer Science Ph.D. candidate at State Key Lab of CAD&CG, Zhejiang University, supervised by Prof. Yingcai Wu. My research interest lies in the machine learning and visual analytic for sports data.
+                I’m a 3rd-year Computer Science Ph.D. candidate at State Key Lab of CAD&CG, Zhejiang University, supervised by Prof. Yingcai Wu. My research interest lies in AI4VIS and visual analytic for sports data.
             </Typography>
         </Grid>
         </Grid>
