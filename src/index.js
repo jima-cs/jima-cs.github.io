@@ -60,6 +60,14 @@ const data = {
     ],
     publications:[
         {
+            title:'Tac-Valuer: Knowledge-based Stroke Evaluation in Table Tennis',
+            authors:'Jiachen Wang*, Dazhen Deng*, Xiao Xie, Xinhuan Shu, Yu-Xuan Huang, Le-Wen Cai, Hui Zhang, Min-Ling Zhang, Zhi-Hua Zhou, and Yingcai Wu (* denotes equal contribution)',
+            conference:'The ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2021)',
+            paper_url:'https://zjuidg.org/source/projects/tacValuer/tacValuer.pdf',
+            video_url:'',
+            src:'./imgs/tac-valuer.png'
+        },
+        {
             title:'EventAnchor: Reducing Human Interactions in Event Annotation of Racket Sports Videos',
             authors:'Dazhen Deng, Jiang Wu, Jiachen Wang, Yihong Wu, Xiao Xie, Zheng Zhou, Hui Zhang, Xiaolong Zhang, and Yingcai Wu',
             conference:'CHI Conference on Human Factors in Computing Systems (CHI \'21)',
@@ -99,7 +107,7 @@ const useStyles = makeStyles(theme => ({
             marginTop: '20px',
             display:'flex',
             alignItems:'center',
-            backgroundColor:'#A6DAF7'
+            backgroundColor:'#24292e'
         },
         avatar: {
             backgroundColor:theme.primary,

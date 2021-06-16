@@ -24,7 +24,8 @@ const useStyles = makeStyles(theme => ({
         position: 'relative'
     },
     gridItem2: {
-        verticalAlign:'middle'
+        verticalAlign:'middle',
+        maxWidth: 'calc(100% - 160px)'
     },
     typoType1: {
         fontSize: '1.3rem',
