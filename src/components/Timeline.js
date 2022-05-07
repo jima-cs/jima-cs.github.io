@@ -25,11 +25,11 @@ const useStyles = makeStyles(theme => ({
         width: '20px',
         height: '20px',
         left:'50%',
-        background: '#A6DAF7',
+        background: '#AAAAAA',
         border: '0px solid red',
     },
     verticalLine: {
-        color:'#53737B',
+        color:'#24292e',
         display : 'inline-block',
         minHeight: '110px',
         height:'100%',
@@ -51,10 +51,10 @@ function TimelineEntry(props){
     return (
         <Grid container className={classes.gridContainer}>
             <Grid xs = {3} item className = {classes.gridItem1}>
-                <Typography variant = 'h6' className = {classes.typoType1}>
+                <Typography variant = 'h7' className = {classes.typoType1}>
                     {element.duration}
                 </Typography>
-                <Typography variant = 'h6' className = {classes.typoType1}>
+                <Typography variant = 'h7' className = {classes.typoType1}>
                     {element.city + ', ' + element.country}
                 </Typography>
             </Grid>
@@ -63,13 +63,13 @@ function TimelineEntry(props){
                 <div className={classes.verticalLine}></div>
             </Grid>
             <Grid item xs = {6}>
-                <Typography variant = 'h5'>
+                <Typography variant = 'h6'>
                     {element.title}
                 </Typography>
-                <Typography variant = 'h6'>
+                <Typography variant = 'h7'>
                     {element.affiliation}
                 </Typography>
-                <Typography variant = 'h6'>
+                <Typography variant = 'h7'>
                     {element.description}
                 </Typography>
             </Grid>

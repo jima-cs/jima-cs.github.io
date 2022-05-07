@@ -60,9 +60,17 @@ const data = {
     ],
     publications:[
         {
+            title:'VisImages: A Fine-Grained Expert-Annotated Visualization Dataset',
+            authors:'Dazhen Deng, Yihong Wu, Xinhuan Shu, Jiang Wu, Siwei Fu, Weiwei Cui, and Yingcai Wu',
+            conference:'IEEE Transactions on Visualization and Computer Graphics (To Appear, 2022)',
+            paper_url:'https://zjuidg.org/source/projects/visimages/visimages.pdf',
+            video_url:'',
+            src:'./imgs/visimages.png'
+        },
+        {
             title:'Tac-Valuer: Knowledge-based Stroke Evaluation in Table Tennis',
             authors:'Jiachen Wang*, Dazhen Deng*, Xiao Xie, Xinhuan Shu, Yu-Xuan Huang, Le-Wen Cai, Hui Zhang, Min-Ling Zhang, Zhi-Hua Zhou, and Yingcai Wu (* denotes equal contribution)',
-            conference:'The ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2021)',
+            conference:'The ACM SIGKDD Conference on Knowledge Discovery and Data Mining (ACM SIGKDD 2021)',
             paper_url:'https://zjuidg.org/source/projects/tacValuer/tacValuer.pdf',
             video_url:'',
             src:'./imgs/tac-valuer.png'
@@ -70,7 +78,7 @@ const data = {
         {
             title:'EventAnchor: Reducing Human Interactions in Event Annotation of Racket Sports Videos',
             authors:'Dazhen Deng, Jiang Wu, Jiachen Wang, Yihong Wu, Xiao Xie, Zheng Zhou, Hui Zhang, Xiaolong Zhang, and Yingcai Wu',
-            conference:'CHI Conference on Human Factors in Computing Systems (CHI \'21)',
+            conference:'CHI Conference on Human Factors in Computing Systems (ACM SIGCHI 2021)',
             paper_url:'https://zjuidg.org/source/projects/eventanchor/eventanchor.pdf',
             video_url:'',
             src:'./imgs/eventanchor.png'
@@ -78,7 +86,7 @@ const data = {
         {
             title:'PassVizor: Toward Better Understanding of the Dynamics of Soccer Passes',
             authors:'Xiao Xie, Jiachen Wang, Hongye Liang, Dazhen Deng, Shoubin Cheng, Hui Zhang, Wei Chen, and Yingcai Wu',
-            conference:'IEEE Transactions on Visualization and Computer Graphics, 2021.',
+            conference:'IEEE Transactions on Visualization and Computer Graphics (IEEE VIS 2020), Vol. 27, Issue 2, Page 1322-1331, 2020',
             paper_url:'https://zjuidg.org/source/projects/passvizor/passvizor.pdf',
             video_url:'',
             src:'./imgs/passvizor.png'
@@ -86,7 +94,7 @@ const data = {
         {
             title:'Tac-Simur: Tactic-based Simulative Visual Analytics of Table Tennis',
             authors:'Jiachen Wang, Kejian Zhao, Dazhen Deng, Anqi Cao, Xiao Xie, Zheng Zhou, Hui Zhang, and Yingcai Wu',
-            conference:'IEEE Transactions on Visualization and Computer Graphics, Vol. 26, Issue 1, Page 407-417, 2020.',
+            conference:'IEEE Transactions on Visualization and Computer Graphics (IEEE VAST 2018), Vol. 26, Issue 1, Page 407-417, 2020.',
             paper_url:'https://zjuidg.org/source/projects/tacSimur/Tac-Simur.pdf',
             video_url:'https://www.youtube.com/watch?v=_I6cne3Wd4U&feature=youtu.be',
             src:'./imgs/tac-simur.png'
