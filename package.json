@@ -19,6 +19,9 @@
     "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
+  "resolutions": {
+    "react-error-overlay": "6.0.9"
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
