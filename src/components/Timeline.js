@@ -20,6 +20,14 @@ const usePCStyles = makeStyles(theme => ({
         alignItems: 'center',
         height: '100%'
     },
+    right: {
+        width: '45%',
+    },
+    logo: {
+        marginLeft: `calc(20% - 55px)`,
+        height: `80px`,
+        width: `80px`
+    },
     circleBase: {
         margin: 'auto',
         borderRadius: '50%',
@@ -35,13 +43,6 @@ const usePCStyles = makeStyles(theme => ({
         minHeight: '100px',
         height: '100%',
         borderLeft: '2px solid',
-    },
-    right: {
-        width: '45%'
-    },
-    logo: {
-        height: `80px`,
-        width: `80px`
     },
     typo1: {
         display: 'block',

@@ -14,7 +14,7 @@ const usePCStyles = makeStyles(theme => ({
         padding: '15px',
         margin: '5px',
         display: 'flex',
-        alignItems: 'center',
+        alignItems: 'start',
     },
     imageWrapper: {
         display: 'block',

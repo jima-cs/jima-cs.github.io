@@ -131,8 +131,8 @@ const usePCStyles = makeStyles(theme => ({
         height: '100vh'
     },
     main: {
-        marginLeft: '21%',
-        marginRight: '21%'
+        marginLeft: `calc(50% - 450px)`,
+        width: '900px'
     },
     header: {
         height: '80px',
