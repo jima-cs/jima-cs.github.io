@@ -10,7 +10,7 @@ const usePCStyles = makeStyles(theme => ({
         alignItems: 'flex-start',
     },
     left: {
-        width: '15%',
+        width: '18%',
         textAlign: 'right',
     },
     line: {

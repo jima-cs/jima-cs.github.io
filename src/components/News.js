@@ -25,23 +25,8 @@ const usePCStyles = makeStyles(theme => ({
         width: '90%',
     },
     intro: {
-        position: 'relative',
-        textAlign: 'left',
-        width: '60%'
-    },
-    typo1: {
-        fontSize: 20,
-        fontWeight: 'bold',
-        display: 'block'
-    },
-    typo2: {
-        fontSize: 14,
-        display: 'inline'
-    },
-    typo3: {
-        fontSize: 14,
-        fontStyle: 'italic',
-        display: 'block'
+        fontFamily: "Roboto, Arial, Sans-Serif",
+        fontSize: 16
     },
     button: {
         margin: theme.spacing(1),
@@ -72,24 +57,8 @@ const useMBStyles = makeStyles(theme => ({
         maxHeight: '200px'
     },
     intro: {
-        width: '100%',
-        position: 'relative',
-        textAlign: 'left',
-    },
-    typo1: {
-        fontSize: 14,
-        fontWeight: 'bold',
-        display: 'block'
-    },
-    typo2: {
-        fontSize: 12,
-        lineBreak: 'strict',
-        display: 'inline'
-    },
-    typo3: {
-        fontSize: 12,
-        fontStyle: 'italic',
-        display: 'block'
+        fontFamily: "Roboto, Arial, Sans-Serif",
+        fontSize: 12
     },
     button: {
         margin: theme.spacing(1),
@@ -111,7 +80,7 @@ function News(props) {
             <Typography className={classes.title}>
                 News
             </Typography>
-            <ul sx={{font: "Roboto, Arial, Sans-Serif"}}>
+            <ul className={classes.intro}>
             {props.news.map((value, index) => {
                 return (<li
                     key={index}

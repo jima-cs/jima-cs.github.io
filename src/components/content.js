@@ -35,7 +35,7 @@ const data = {
     news: [
         {
             date: "07/2022",
-            content: "Four papers accepted to IEEE VIS."
+            content: "Four papers accepted to IEEE VIS 2022."
         },
         {
             date: "01/2022",
@@ -46,12 +46,20 @@ const data = {
             content: "One paper accepted to ACM SIGKDD 2021."
         },
         {
-            date: "11/2020",
+            date: "12/2020",
             content: "Started internship at Microsoft Research Asia (Beijing)."
         },
         {
             date: "11/2020",
             content: "One paper accepted to ACM SIGCHI 2021."
+        },
+        {
+            date: "07/2020",
+            content: "One paper accepted to IEEE VIS 2020."
+        },
+        {
+            date: "07/2019",
+            content: "One paper accepted to IEEE VIS 2019."
         },
         {
             date: "09/2018",
@@ -155,7 +163,7 @@ const data = {
         {
             title: 'Tac-Simur: Tactic-based Simulative Visual Analytics of Table Tennis',
             authors: 'Jiachen Wang, Kejian Zhao, Dazhen Deng, Anqi Cao, Xiao Xie, Zheng Zhou, Hui Zhang, and Yingcai Wu',
-            conference: 'IEEE Transactions on Visualization and Computer Graphics (IEEE VAST 2018), Vol. 26, Issue 1, Page 407-417, 2020 (CCF-A, JCR-Q1)',
+            conference: 'IEEE Transactions on Visualization and Computer Graphics (IEEE VAST 2019), Vol. 26, Issue 1, Page 407-417, 2020 (CCF-A, JCR-Q1)',
             paper_url: 'https://zjuidg.org/source/projects/tacSimur/Tac-Simur.pdf',
             video_url: 'https://www.youtube.com/watch?v=_I6cne3Wd4U&feature=youtu.be',
             src: './imgs/tac-simur.png'
