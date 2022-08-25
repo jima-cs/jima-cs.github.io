@@ -119,7 +119,7 @@ function PublicationElement(props) {
 
     const element = props.element;
     return (
-        <Paper className={classes.paper}>
+        <Paper className={classes.paper} elevation={0}>
             <div className={classes.imageWrapper}
             // style={{ height: `${height}px` }}
             >

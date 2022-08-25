@@ -28,6 +28,19 @@ const usePCStyles = makeStyles(theme => ({
         fontFamily: "Roboto, Arial, Sans-Serif",
         fontSize: 16
     },
+    inlinewrapper: {
+        color: 'black',
+        display: 'inline-flex'
+    },
+    inlineIcon: {
+        height: '30px',
+        margin: '2px',
+        objectFit: 'scale-down',
+    },
+    contactText: {
+        fontSize: 14,
+        display: 'inline'
+    },
     button: {
         margin: theme.spacing(1),
         height: '25px',
@@ -60,6 +73,20 @@ const useMBStyles = makeStyles(theme => ({
         fontFamily: "Roboto, Arial, Sans-Serif",
         fontSize: 12
     },
+    inlinewrapper: {
+        color: 'black',
+        display: 'inline-flex'
+    },
+    inlineIcon: {
+        color: 'red',
+        height: '20px',
+        margin: '2px',
+        objectFit: 'scale-down',
+    },
+    contactText: {
+        fontSize: 14,
+        display: 'inline'
+    },
     button: {
         margin: theme.spacing(1),
         width: '40px',
@@ -82,9 +109,14 @@ function News(props) {
             </Typography>
             <ul className={classes.intro}>
             {props.news.map((value, index) => {
+                if (index === 0){
+                    return (<li
+                        key={index}
+                    ><a><Typography className={classes.contactText}>{`${value.date}: ${value.content}`}</Typography><img className={classes.inlineIcon} src={'./imgs/NEW.png'}/></a></li>)
+                }
                 return (<li
                     key={index}
-                >{`${value.date}: ${value.content}`}</li>)
+                ><Typography className={classes.contactText}>{`${value.date}: ${value.content}`}</Typography></li>)
             })}
             </ul>
         </div>
