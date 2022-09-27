@@ -1,5 +1,5 @@
 const data = {
-    intro: "I'm a 4th-year Computer Science Ph.D. candidate at the State Key Lab of CAD&CG, Zhejiang University, under the supervision of Prof. Yingcai Wu. My research interest lies in machine learning for interaction and visualization design, data mining, and computer vision.",
+    intro: "I'm a 5th-year Computer Science Ph.D. candidate at the State Key Lab of CAD&CG, Zhejiang University, under the supervision of Prof. Yingcai Wu. My research interest lies in machine learning for interaction and visualization design, data mining, and computer vision.",
     contact: [
         {
             src: './imgs/email.png',
@@ -33,6 +33,10 @@ const data = {
         }
     ],
     news: [
+        {
+            date: "09/2022",
+            content: 'Welcome to our panel "Grand Challenges in Visual Analytic Systems" in VIS\'22!'
+        },
         {
             date: "07/2022",
             content: "Four papers accepted to IEEE VIS 2022."
