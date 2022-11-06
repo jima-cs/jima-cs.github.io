@@ -107,7 +107,7 @@ const data = {
         {
             title: 'Revisiting the Design Patterns of Composite Visualizations',
             authors: 'Dazhen Deng, Weiwei Cui, Xiyu Meng, Mengye Xu, Yu Liao, Haidong Zhang, Yingcai Wu',
-            conference: 'IEEE TVCG (CCF-A, JCR-Q1)',
+            conference: 'IEEE Transactions on Visualization and Computer Graphics (CCF-A, JCR-Q1)',
             paper_url: 'https://arxiv.org/pdf/2203.10476.pdf',
             video_url: '',
             src: './imgs/composition.png'
@@ -117,7 +117,7 @@ const data = {
             authors: 'Dazhen Deng, Aoyu Wu, Huamin Qu, and Yingcai Wu',
             conference: 'IEEE VIS 2022 (CCF-A)',
             paper_url: 'https://arxiv.org/pdf/2208.01232.pdf',
-            video_url: '',
+            video_url: 'https://youtu.be/hM4XMU7pv-0',
             src: './imgs/dashbot.png'
         },
         {
