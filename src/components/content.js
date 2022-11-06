@@ -35,6 +35,10 @@ const data = {
     news: [
         {
             date: "09/2022",
+            content: 'A paper accepted to IEEE TVCG.'
+        },
+        {
+            date: "09/2022",
             content: 'Welcome to our panel "Grand Challenges in Visual Analytic Systems" in VIS\'22!'
         },
         {
@@ -101,6 +105,14 @@ const data = {
     ],
     publications: [
         {
+            title: 'Revisiting the Design Patterns of Composite Visualizations',
+            authors: 'Dazhen Deng, Weiwei Cui, Xiyu Meng, Mengye Xu, Yu Liao, Haidong Zhang, Yingcai Wu',
+            conference: 'IEEE TVCG (CCF-A, JCR-Q1)',
+            paper_url: 'https://arxiv.org/pdf/2203.10476.pdf',
+            video_url: '',
+            src: './imgs/composition.png'
+        },
+        {
             title: 'DashBot: Insight-Driven Dashboard Generation Based on Deep Reinforcement Learning',
             authors: 'Dazhen Deng, Aoyu Wu, Huamin Qu, and Yingcai Wu',
             conference: 'IEEE VIS 2022 (CCF-A)',
@@ -120,7 +132,7 @@ const data = {
             title: 'OBTracker: Visual Analytics of Off-ball Movements in Basketball',
             authors: 'Yihong Wu, Dazhen Deng, Xiao Xie, Moqi He, Jie Xu, Hongzeng Zhang, Hui Zhang, and Yingcai Wu',
             conference: 'IEEE VIS 2022 (CCF-A)',
-            paper_url: '',
+            paper_url: 'https://zjuidg.org/source/projects/OBTracker/OBTracker.pdf',
             video_url: '',
             src: './imgs/obtracker.png'
         },
@@ -128,7 +140,7 @@ const data = {
             title: 'MetaGlyph: Automatic Generation of Metaphoric Glyph-based Visualization',
             authors: 'Lu Ying, Xinhuan Shu, Dazhen Deng, Yuchen Yang, Tan Tang, Lingyun Yu, and Yingcai Wu',
             conference: 'IEEE VIS 2022 (CCF-A)',
-            paper_url: '',
+            paper_url: 'https://arxiv.org/pdf/2209.05739.pdf',
             video_url: '',
             src: './imgs/metaglyph.png'
         },
