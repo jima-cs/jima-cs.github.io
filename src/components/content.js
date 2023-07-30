@@ -85,7 +85,7 @@ const data = {
             country: 'China',
             title: 'Tenure-track Assistant Professor',
             description: 'ZJU 100-Young professor',
-            affiliation: 'State Key Lab of CAD&CG, Zhejiang University',
+            affiliation: 'School of Software and Technology, Zhejiang University',
             src: './imgs/zju.png'
         },
         {
