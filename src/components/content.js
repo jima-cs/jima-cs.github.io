@@ -1,5 +1,5 @@
 const data = {
-    intro: "I'm a 5th-year Computer Science Ph.D. candidate at the State Key Lab of CAD&CG, Zhejiang University, under the supervision of Prof. Yingcai Wu. My research interest lies in machine learning for interaction and visualization design, data mining, and computer vision.",
+    intro: "I am a tenure-track assistant professor （ZJU 100-Young professor） in the School of Software and Technology at Zhejiang University. I received my Ph.D. at the State Key Lab of CAD&CG, Zhejiang University, under the supervision of Prof. Yingcai Wu. My research interests lie in AI for insight discovery, AI for visualization generation, and AI explainability.",
     contact: [
         {
             src: './imgs/email.png',
@@ -14,7 +14,7 @@ const data = {
     ],
     education: [
         {
-            duration: 'Sep. 2018 - Present',
+            duration: 'Sep. 2018 - June 2023',
             city: 'Hangzhou',
             country: 'China',
             title: 'Ph.D. Candidate',
@@ -33,6 +33,10 @@ const data = {
         }
     ],
     news: [
+        {
+            date: "07/2023",
+            content: 'A paper accepted to IEEE VIS 2023 and a paper accepted to ACM UIST.'
+        },
         {
             date: "09/2022",
             content: 'A paper accepted to IEEE TVCG.'
@@ -76,6 +80,15 @@ const data = {
     ],
     experience: [
         {
+            duration: 'August 2023 - Present',
+            city: 'Ningbo',
+            country: 'China',
+            title: 'Tenure-track Assistant Professor',
+            description: 'ZJU 100-Young professor',
+            affiliation: 'State Key Lab of CAD&CG, Zhejiang University',
+            src: './imgs/zju.png'
+        },
+        {
             duration: 'Dec. 2020 - Apr. 2021',
             city: 'Beijing',
             country: 'China',
@@ -85,7 +98,7 @@ const data = {
             src: './imgs/microsoft.png'
         },
         {
-            duration: 'Sep. 2018 - Present',
+            duration: 'Sep. 2018 - June 2023',
             city: 'Hangzhou',
             country: 'China',
             title: 'Ph.D. Candidate',
