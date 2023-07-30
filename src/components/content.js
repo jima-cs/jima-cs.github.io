@@ -1,5 +1,5 @@
 const data = {
-    intro: "I am a tenure-track assistant professor （ZJU 100-Young professor） in the School of Software and Technology at Zhejiang University. I received my Ph.D. at the State Key Lab of CAD&CG, Zhejiang University, under the supervision of Prof. Yingcai Wu. My research interests lie in AI for insight discovery, AI for visualization generation, and AI explainability.",
+    intro: "I am a tenure-track assistant professor (ZJU 100-Young professor) in the School of Software and Technology at Zhejiang University. I received my Ph.D. at the State Key Lab of CAD&CG, Zhejiang University, under the supervision of Prof. Yingcai Wu. My research interests lie in AI for insight discovery, AI for visualization generation, and AI explainability.",
     contact: [
         {
             src: './imgs/email.png',
