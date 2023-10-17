@@ -1,5 +1,5 @@
 const data = {
-    intro: "I am a tenure-track assistant professor (ZJU 100-Young professor) in the School of Software and Technology at Zhejiang University. I received my Ph.D. at the State Key Lab of CAD&CG, Zhejiang University, under the supervision of Prof. Yingcai Wu. My research interests lie in AI for insight discovery, AI for visualization generation, and AI explainability.",
+    intro: "I am a tenure-track assistant professor (ZJU 100-Young professor) in the School of Software and Technology at Zhejiang University. I received my Ph.D. at the State Key Lab of CAD&CG, Zhejiang University, under the supervision of Prof. Yingcai Wu. My research interests lie in AI-empowered insight discovery, AI for visualization generation, and visual analytics for AI security.",
     contact: [
         {
             src: './imgs/email.png',
@@ -17,7 +17,7 @@ const data = {
             duration: 'Sep. 2018 - June 2023',
             city: 'Hangzhou',
             country: 'China',
-            title: 'Ph.D. Candidate',
+            title: 'Ph.D. Student',
             affiliation: 'State Key Lab of CAD&CG, Zhejiang University',
             description: 'Under the supervision of Prof. Yingcai Wu',
             src: './imgs/zju.png'
@@ -117,6 +117,22 @@ const data = {
         }
     ],
     publications: [
+        {
+            title: 'Visualizing Large-Scale Spatial Time Series with GeoChron',
+            authors: 'Zikun Deng, Shifu Chen, Tobias Schreck, Dazhen Deng, Tan Tang, Mingliang Xu, Di Weng, Yingcai Wu',
+            conference: 'IEEE Transactions on Visualization and Computer Graphics (CCF-A, JCR-Q1)',
+            paper_url: 'https://zkdeng.org/publication/geochron/GeoChron.pdf',
+            video_url: '',
+            src: './imgs/geochron.png'
+        },
+        {
+            title: 'AR-Enhanced Workouts: Exploring Visual Cues for At-Home Workout Videos in AR Environment',
+            authors: 'Yihong Wu, Lingyun Yu, Jie Xu, Dazhen Deng, Jiachen Wang, Xiao Xie, Hui Zhang, Yingcai Wu',
+            conference: 'UIST 2023 (CCF-A)',
+            paper_url: '',
+            video_url: '',
+            src: './imgs/ARgym.png'
+        },
         {
             title: 'Revisiting the Design Patterns of Composite Visualizations',
             authors: 'Dazhen Deng, Weiwei Cui, Xiyu Meng, Mengye Xu, Yu Liao, Haidong Zhang, Yingcai Wu',
