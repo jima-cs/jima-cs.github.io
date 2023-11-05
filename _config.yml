@@ -11,9 +11,9 @@ title                    : "Ji Ma"
 title_separator          : "-"
 name                     : &name "Ji Ma"
 description              : &description "State Key Lab of CAD&CG, Zhejiang University"
-url                      : https://qkwl2001.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://jima-cs.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "qkwl2001/qkwl2001.github.io"
+repository               : "jima-cs/jima-cs.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -91,14 +91,14 @@ author:
   googlescholar    : #"http://yourfullgooglescholarurl.com"
   email            : "zjumaji@zju.edu.cn"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              : "http://qkwl2001.github.io"
+  uri              : "http://jima-cs.github.io"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           : "qkwl2001"
+  github           : "jima-cs"
   google_plus      :
   keybase          :
   instagram        :
