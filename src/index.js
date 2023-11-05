@@ -87,7 +87,7 @@ function App() {
         <div className={classes.main}>
             <div className={classes.header}>
                 <Typography className={classes.typography}>
-                    Dazhen Deng (邓达臻)
+                    Ma Ji (马骥)
                 </Typography>
                 {/* <a href='https://zjuidg.org/'>
                     <img src={logo} className={classes.logo} />

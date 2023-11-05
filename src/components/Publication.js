@@ -132,13 +132,13 @@ function PublicationElement(props) {
                     {element.title}
                 </Typography>
                 <Typography className={classes.typo2}>
-                    {element.authors.split("Dazhen Deng")[0]}
+                    {element.authors.split("Ji Ma")[0]}
                 </Typography>
                 <Typography className={classes.typo2} style={{ fontWeight: 'Bold' }}>
-                    Dazhen Deng
+                    Ji Ma
                 </Typography>
                 <Typography className={classes.typo2}>
-                    {element.authors.split("Dazhen Deng")[1]}
+                    {element.authors.split("Ji Ma")[1]}
                 </Typography>
                 <Typography className={classes.typo3}>
                     {element.conference}
