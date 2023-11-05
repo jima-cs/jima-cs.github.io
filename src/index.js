@@ -27,7 +27,7 @@ const usePCStyles = makeStyles(theme => ({
         display: 'flex',
         justifyContent: 'space-between',
         alignItems: 'center',
-        backgroundColor: '#24292e'
+        backgroundColor: '#102158'
     },
     mainBody: {
         width: '100%',
@@ -60,7 +60,7 @@ const useMBStyles = makeStyles(theme => ({
         display: 'flex',
         justifyContent: 'space-between',
         alignItems: 'center',
-        backgroundColor: '#24292e'
+        backgroundColor: '#102158'
     },
     mainBody: {
         width: '100%',
