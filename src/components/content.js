@@ -1,5 +1,5 @@
 const data = {
-    intro: "Hi! I am an CS Ph.D. student at State Key Lab of CAD&CG, Zhejiang University, advised by Prof. Yingcai Wu.     My research lies at the intersection between visual analytics and Human-centered AI. Specifically, I am currently interested in item recommendation with diverse interaction.        Previously, I got my bachelor's degree in Computer Science at School of Computer Science and Chu Kochen Honors College,  Zhejiang University.     During my undergraduate, I was fortunate to work closely with Dr.Jiachen Wang and Prof. Yingcai Wu on several research projects.",
+    intro: "Hi! I am Ji Ma(马骥). I am an CS Ph.D. student at State Key Lab of CAD&CG, Zhejiang University, advised by Prof. Yingcai Wu.     My research lies at the intersection between visual analytics and Human-centered AI. Specifically, I am currently interested in item recommendation with diverse interaction.        Previously, I got my bachelor's degree in Computer Science at School of Computer Science and Chu Kochen Honors College,  Zhejiang University.     During my undergraduate, I was fortunate to work closely with Dr.Jiachen Wang and Prof. Yingcai Wu on several research projects.",
     contact: [
         {
             src: './imgs/email.png',
