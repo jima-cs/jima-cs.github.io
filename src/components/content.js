@@ -57,11 +57,19 @@ const data = {
     publications: [
         {
             title: 'Tac-Trainer: A Visual Analytics System for IoT-based Racket Sports Training',
-            authors: 'iachen Wang, Ji Ma, Kangping Hu, Zheng Zhou, Hui Zhang, Xiao Xie, Yingcai Wu',
+            authors: 'Jiachen Wang, Ji Ma, Kangping Hu, Zheng Zhou, Hui Zhang, Xiao Xie, Yingcai Wu',
             conference: 'IEEE Transactions on Visualization and Computer Graphics (CCF-A, JCR-Q1)',
             paper_url: 'https://zjuidg.org/source/projects/TacTrainer/TacTrainer.pdf',
             video_url: 'https://youtu.be/nriqaQUjZ1E',
             src: './imgs/tactrainer.png'
+        },
+        {
+            title: 'TacPrint: Visualizing the Biomechanical Fingerprint in Table Tennis',
+            authors: 'Jiachen Wang, Ji Ma, Zheng Zhou, Hui Zhang, Xiao Xie, Yingcai Wu',
+            conference: 'IEEE Transactions on Visualization and Computer Graphics (CCF-A, JCR-Q1)',
+            paper_url: '',
+            video_url: '',
+            src: './imgs/tacprint.png'
         },
     ]
 };

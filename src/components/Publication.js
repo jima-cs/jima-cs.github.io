@@ -49,7 +49,7 @@ const usePCStyles = makeStyles(theme => ({
         margin: theme.spacing(1),
         height: '25px',
         fontSize: 12,
-        backgroundColor: "#AAAAAA", 
+        backgroundColor: "#AAAAAA",
         color: '#FDFEFE'
     },
 }));
@@ -98,7 +98,7 @@ const useMBStyles = makeStyles(theme => ({
         width: '40px',
         height: '25px',
         fontSize: 12,
-        backgroundColor: "#AAAAAA", 
+        backgroundColor: "#AAAAAA",
         color: '#FDFEFE'
     },
 }));
@@ -154,7 +154,7 @@ function PublicationElement(props) {
                         element.video_url == '' ?
                             null :
                             <Button
-                                target="_blank" href={element.video_url} variant="contained" 
+                                target="_blank" href={element.video_url} variant="contained"
                                 className={classes.button}>
                                 Video
                             </Button>

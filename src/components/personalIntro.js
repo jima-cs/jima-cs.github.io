@@ -88,12 +88,24 @@ function PersonalIntro(props) {
             <Avatar src = './imgs/avatar2.jpg' className = {classes.avatar}/>
             <div className={classes.introBlock}>
                 <Typography className = {classes.intro}>
-                    {props.content}
+                    {
+                        <div>
+                            <p>
+                                Hi! I am Ji Ma(马骥). I am an CS Ph.D. student at State Key Lab of CAD&CG, Zhejiang University, advised by <a href="http://www.ycwu.org/">Prof. Yingcai Wu</a>.
+                                My research lies at the intersection between visual analytics and Human-centered AI.
+                                Specifically, I am currently interested in item recommendation with diverse interaction and Iot4VA.
+                            </p>
+                            <p>
+                                Previously, I got my bachelor's degree in Computer Science at School of Computer Science and Chu Kochen Honors College, Zhejiang University.
+                                During my undergraduate, I was fortunate to work closely with <a href="http://www.wjc-vis.com/">Dr.Jiachen Wang</a> and <a href="http://www.ycwu.org/">Prof. Yingcai Wu</a> on several research projects.
+                            </p>
+                        </div>
+                    }
                 </Typography>
                 <div className={classes.contactwrapper}>
-                    <Typography 
+                    <Typography
                     className={classes.contactText}>
-                        Contact: 
+                        Contact:
                     </Typography>
                     {
                         props.contact.map((item) => (
