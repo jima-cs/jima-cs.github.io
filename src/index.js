@@ -99,6 +99,7 @@ function App() {
                 <News news={data.news} />
                 <Publications publications={data.publications} />
             </div>
+            <div><a href="https://beian.miit.gov.cn/" target="_blank">浙ICP备2024062276号-1</a></div>
         </div>
     )
 };
