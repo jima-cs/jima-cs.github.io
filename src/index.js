@@ -42,7 +42,10 @@ const usePCStyles = makeStyles(theme => ({
     logo: {
         width: '60px',
         margin: '5px'
-    }
+    },
+    // foot:{
+    //     textAlign:'center'
+    // }
 }));
 
 const useMBStyles = makeStyles(theme => ({
@@ -99,7 +102,7 @@ function App() {
                 <News news={data.news} />
                 <Publications publications={data.publications} />
             </div>
-            <div><a href="https://beian.miit.gov.cn/" target="_blank">浙ICP备2024062276号-1</a></div>
+            <div style={{textAlign:'center',color:'#000'}}><a style={{color:'#000'}} href="https://beian.miit.gov.cn/" target="_blank">浙ICP备2024062276号-1</a></div>
         </div>
     )
 };
