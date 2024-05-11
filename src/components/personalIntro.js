@@ -93,7 +93,7 @@ function PersonalIntro(props) {
                             <p>
                                 Hi! I am Ji Ma(马骥). I am an CS Ph.D. student at State Key Lab of CAD&CG, Zhejiang University, advised by <a href="http://www.ycwu.org/">Prof. Yingcai Wu</a>.
                                 My research lies at the intersection between visual analytics and Human-centered AI.
-                                Specifically, I am currently interested in item optimizing sports training scenarios with visual analytics
+                                Specifically, I am currently interested in item optimizing sports training with visual analytics.
                             </p>
                             <p>
                                 Previously, I got my bachelor's degree in Computer Science at School of Computer Science and Chu Kochen Honors College, Zhejiang University.
