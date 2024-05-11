@@ -17,7 +17,8 @@
     "test": "react-scripts test",
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "copy": "cp -r ./build/*.* ./docs"
   },
   "resolutions": {
     "react-error-overlay": "6.0.9"
