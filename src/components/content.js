@@ -1,5 +1,5 @@
 const data = {
-    intro: "Hi! I am Ji Ma(马骥). I am an CS Ph.D. student at State Key Lab of CAD&CG, Zhejiang University, advised by Prof. Yingcai Wu.     My research lies at the intersection between visual analytics and Human-centered AI. Specifically, I am currently interested in item recommendation with diverse interaction.        Previously, I got my bachelor's degree in Computer Science at School of Computer Science and Chu Kochen Honors College,  Zhejiang University.     During my undergraduate, I was fortunate to work closely with Dr.Jiachen Wang and Prof. Yingcai Wu on several research projects.",
+    intro: "Hi! I am Ji Ma(马骥). I am an CS Ph.D. student at State Key Lab of CAD&CG, Zhejiang University, advised by Prof. Yingcai Wu. ",
     contact: [
         {
             src: './imgs/email.png',
@@ -65,10 +65,10 @@ const data = {
         },
         {
             title: 'TacPrint: Visualizing the Biomechanical Fingerprint in Table Tennis',
-            authors: 'Jiachen Wang, Ji Ma, Zheng Zhou, Hui Zhang, Xiao Xie, Yingcai Wu',
+            authors: 'Jiachen Wang, Ji Ma, Zheng Zhou, Xiao Xie, Hui Zhang, Yingcai Wu, Huamin Qu',
             conference: 'IEEE Transactions on Visualization and Computer Graphics (CCF-A, JCR-Q1)',
-            paper_url: '',
-            video_url: '',
+            paper_url: 'https://ieeexplore.ieee.org/document/10500518',
+            video_url: 'https://ieeexplore.ieee.org/ielx7/2945/4359476/10500518/supp1-3388555.mp4',
             src: './imgs/tacprint.png'
         },
     ]
