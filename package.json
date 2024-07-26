@@ -18,7 +18,8 @@
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
     "eject": "react-scripts eject",
-    "copy": "cp -r ./build/*.* ./docs"
+    "copy": "cp -r ./build/*.* ./docs",
+    "publish": "scp -r ./docs root@aliyun:/usr/local/projects/mypage/jima-cs.github.io/"
   },
   "resolutions": {
     "react-error-overlay": "6.0.9"
