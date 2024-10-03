@@ -91,7 +91,7 @@ function PersonalIntro(props) {
                     {
                         <div>
                             <p>
-                                Hi! I am Ji Ma(马骥). I am an CS Ph.D. student at State Key Lab of CAD&CG, Zhejiang University, advised by <a href="http://www.ycwu.org/">Prof. Yingcai Wu</a>.
+                                Hi! I am Ji Ma(马骥). I am a CS Ph.D. candidate at State Key Lab of CAD&CG, Zhejiang University, advised by <a href="http://www.ycwu.org/">Prof. Yingcai Wu</a>.
                                 My research lies at the intersection between visual analytics and Human-centered AI.
                                 Specifically, I am currently interested in optimizing sports training with visual analytics, IoT, and LLM.
                             </p>
