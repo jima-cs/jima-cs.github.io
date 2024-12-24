@@ -91,20 +91,28 @@ function PersonalIntro(props) {
                     {
                         <div>
                             <p>
-                                Hi! I am Ji Ma(马骥). I am a CS Ph.D. candidate at State Key Lab of CAD&CG, Zhejiang University, advised by <a href="http://www.ycwu.org/">Prof. Yingcai Wu</a>.
+                                Hi! I am Ji Ma(马骥). I am a CS Ph.D. candidate at State Key Lab of CAD&CG, Zhejiang
+                                University, advised by <a href="http://www.ycwu.org/">Prof. Yingcai Wu</a>.
                                 My research lies at the intersection between visual analytics and Human-centered AI.
-                                Specifically, I am currently interested in optimizing sports training with visual analytics, IoT, and LLM.
+                                Specifically, I am currently interested in optimizing sports training with visual
+                                analytics, IoT, and LLM.
                             </p>
                             <p>
-                                Previously, I got my bachelor's degree in Computer Science at School of Computer Science and Chu Kochen Honors College, Zhejiang University.
-                                During my undergraduate, I was fortunate to work closely with <a href="http://www.wjc-vis.com/">Dr.Jiachen Wang</a> and <a href="http://www.ycwu.org/">Prof. Yingcai Wu</a> on several research projects.
+                                Previously, I got my bachelor's degree in Computer Science at School of Computer Science
+                                and Chu Kochen Honors College, Zhejiang University.
+                                During my undergraduate, I was fortunate to work closely with <a
+                                href="http://www.wjc-vis.com/">Dr.Jiachen Wang</a> and <a href="http://www.ycwu.org/">Prof.
+                                Yingcai Wu</a> on several research projects.
+                            </p>
+                            <p>
+                                I love running. I am a pacer for the Kuafu Running Club @ZJU.
                             </p>
                         </div>
                     }
                 </Typography>
                 <div className={classes.contactwrapper}>
                     <Typography
-                    className={classes.contactText}>
+                        className={classes.contactText}>
                         Contact:
                     </Typography>
                     {

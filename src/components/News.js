@@ -33,8 +33,9 @@ const usePCStyles = makeStyles(theme => ({
         display: 'inline-flex'
     },
     inlineIcon: {
-        height: '30px',
+        height: '10px',
         margin: '2px',
+        cursor: 'pointer',
         objectFit: 'scale-down',
     },
     contactText: {
@@ -45,7 +46,7 @@ const usePCStyles = makeStyles(theme => ({
         margin: theme.spacing(1),
         height: '25px',
         fontSize: 12,
-        backgroundColor: "#AAAAAA", 
+        backgroundColor: "#AAAAAA",
         color: '#FDFEFE'
     },
 }));
@@ -92,7 +93,7 @@ const useMBStyles = makeStyles(theme => ({
         width: '40px',
         height: '25px',
         fontSize: 12,
-        backgroundColor: "#AAAAAA", 
+        backgroundColor: "#AAAAAA",
         color: '#FDFEFE'
     },
 }));
@@ -109,10 +110,10 @@ function News(props) {
             </Typography>
             <ul className={classes.intro}>
             {props.news.map((value, index) => {
-                if (index === 0){
+                if (value.url){
                     return (<li
                         key={index}
-                    ><a><Typography className={classes.contactText}>{`${value.date}: ${value.content}`}</Typography><img className={classes.inlineIcon} src={'./imgs/NEW.png'}/></a></li>)
+                    ><a><Typography className={classes.contactText}>{`${value.date}: ${value.content}`}</Typography><img className={classes.inlineIcon} src={'./imgs/link.svg'} onClick={() => window.open(value.url, '_blank')}/></a></li>)
                 }
                 return (<li
                     key={index}

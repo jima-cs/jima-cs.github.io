@@ -33,6 +33,21 @@ const data = {
         },
     ],
     news: [
+        {
+            date: '10/2024',
+            content: "Zhejiang University’s running team claimed the Elite University Group title at the 2024 Nike University Elite Challenge, with members of the Kuafu Running Club playing a pivotal role.",
+            url: "https://www.zju.edu.cn/english/2024/1021/c19573a2977710/page.psp"
+        },
+        {
+            date: '12/2023',
+            content: "Our paper TacPrint is accepted by IEEE PacificVis 2024 TVCG journal track."
+        },
+
+        {
+            date: '08/2023',
+            content: "I was interviewed by the press of Chu KoChen Honors College@ZJU",
+            url: "https://mp.weixin.qq.com/s/DQAhExhmRTO7Sw6VgjpxeQ"
+        }
     ],
     experience: [
         {
