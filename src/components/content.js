@@ -34,6 +34,11 @@ const data = {
     ],
     news: [
         {
+            date: '05/2025',
+            content: "Our paper titled “T3Set: A Multimodal Dataset with Targeted Suggestions for LLM-based Virtual Coach in Table Tennis Training” is accepted by ACM KDD 2025 (dataset track)! Paper will be released soon.",
+            url: "https://kdd2025.kdd.org/"
+        },
+        {
             date: '10/2024',
             content: "Zhejiang University’s running team claimed the Elite University Group title at the 2024 Nike University Elite Challenge, with members of the Kuafu Running Club playing a pivotal role.",
             url: "https://www.zju.edu.cn/english/2024/1021/c19573a2977710/page.psp"
@@ -65,11 +70,19 @@ const data = {
             country: 'China',
             title: 'CS B.E.',
             affiliation: 'School of Computer Science and Technology, Zhejiang University',
-            description: 'Member of Mixed Class in Chu Kochen Honors College. overall GPA of 3.90/4.0 (89.8/100) ',
+            description: 'Member of Mixed Class in Chu Kochen Honors College.',
             src: './imgs/zju.png'
         },
     ],
     publications: [
+        {
+            title: 'T3Set: A Multimodal Dataset with Targeted Suggestions for LLM-based Virtual Coach in Table Tennis Training',
+            authors: 'Ji Ma, Jiale Wu, Haoyu Wang, Yanze Zhang, Xiao Xie, Zheng Zhou, Hui Zhang, Jiachen Wang, Yingcai Wu',
+            conference: 'ACM SIGKDD Conference on Knowledge Discovery and Data Mining (CCF-A)',
+            paper_url: '',
+            video_url: '',
+            src: ''
+        },
         {
             title: 'Tac-Trainer: A Visual Analytics System for IoT-based Racket Sports Training',
             authors: 'Jiachen Wang, Ji Ma, Kangping Hu, Zheng Zhou, Hui Zhang, Xiao Xie, Yingcai Wu',
