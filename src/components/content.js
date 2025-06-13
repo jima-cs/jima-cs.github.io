@@ -78,10 +78,11 @@ const data = {
         {
             title: 'T3Set: A Multimodal Dataset with Targeted Suggestions for LLM-based Virtual Coach in Table Tennis Training',
             authors: 'Ji Ma, Jiale Wu, Haoyu Wang, Yanze Zhang, Xiao Xie, Zheng Zhou, Hui Zhang, Jiachen Wang, Yingcai Wu',
-            conference: 'ACM SIGKDD Conference on Knowledge Discovery and Data Mining (CCF-A)',
-            paper_url: '',
+            conference: 'The 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining (ACM KDD\'25) (CCF-A)',
+            paper_url: 'https://zjuidg.org/source/projects/t3set/t3set.pdf',
             video_url: '',
-            src: ''
+            code_url: 'https://github.com/jima-cs/t3set',
+            src: './imgs/t3set.png'
         },
         {
             title: 'Tac-Trainer: A Visual Analytics System for IoT-based Racket Sports Training',
@@ -89,6 +90,7 @@ const data = {
             conference: 'IEEE Transactions on Visualization and Computer Graphics (CCF-A, JCR-Q1)',
             paper_url: 'https://zjuidg.org/source/projects/TacTrainer/TacTrainer.pdf',
             video_url: 'https://youtu.be/nriqaQUjZ1E',
+            code_url: '',
             src: './imgs/tactrainer.png'
         },
         {
@@ -97,6 +99,7 @@ const data = {
             conference: 'IEEE Transactions on Visualization and Computer Graphics (CCF-A, JCR-Q1)',
             paper_url: 'https://ieeexplore.ieee.org/document/10500518',
             video_url: 'https://ieeexplore.ieee.org/ielx7/2945/4359476/10500518/supp1-3388555.mp4',
+            code_url: '',
             src: './imgs/tacprint.png'
         },
     ]

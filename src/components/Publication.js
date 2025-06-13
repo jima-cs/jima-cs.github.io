@@ -159,6 +159,16 @@ function PublicationElement(props) {
                                 Video
                             </Button>
                     }
+                    {
+                        element.code_url == '' ?
+                            null :
+                            <Button
+                                target="_blank" href={element.code_url} variant="contained"
+                                className={classes.button}>
+                                Code
+                            </Button>
+                    }
+
                 </div>
             </div>
         </Paper>
