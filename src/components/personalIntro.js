@@ -48,8 +48,8 @@ const useMBStyles = makeStyles(theme => ({
     avatar: {
         display: 'block',
         margin: 'auto',
-        width:'120px',
-        height:'120px',
+        width:'110px',
+        height:'110px',
         alignContent:'center',
         position: 'relative'
     },
@@ -85,7 +85,7 @@ function PersonalIntro(props) {
     const classes = matches? style1: style2;
     return (
         <div className={classes.main}>
-            <Avatar src = './imgs/avatar2.jpg' className = {classes.avatar}/>
+            <Avatar src = './imgs/mj/mj1.jpg' className = {classes.avatar}/>
             <div className={classes.introBlock}>
                 <Typography className = {classes.intro}>
                     {
