@@ -12,26 +12,26 @@ const data = {
             link: 'https://scholar.google.com/citations?user=vz6ryCwAAAAJ&hl=en'
         }
     ],
-    education: [
-        {
-            duration: 'Aug. 2023 - Present',
-            city: 'Hangzhou',
-            country: 'China',
-            title: 'CS PH.D.',
-            description: 'VIS & HCI,Supervised by Prof. Yingcai Wu',
-            affiliation: 'School of Computer Science and Technology, Zhejiang University',
-            src: './imgs/zju.png'
-        },
-        {
-            duration: 'Aug. 2019 - June. 2023',
-            city: 'Hangzhou',
-            country: 'China',
-            title: 'CS Undergraduate',
-            affiliation: 'School of Computer Science and Technology, Zhejiang University',
-            description: 'Member of Mixed Class in Chu Kochen Honors College',
-            src: './imgs/zju.png'
-        },
-    ],
+    // education: [
+    //     {
+    //         duration: 'Aug. 2023 - Present',
+    //         city: 'Hangzhou',
+    //         country: 'China',
+    //         title: 'CS PH.D.',
+    //         description: 'VIS & HCI,Supervised by Prof. Yingcai Wu',
+    //         affiliation: 'School of Computer Science and Technology, Zhejiang University',
+    //         src: './imgs/zju.png'
+    //     },
+    //     {
+    //         duration: 'Aug. 2019 - June. 2023',
+    //         city: 'Hangzhou',
+    //         country: 'China',
+    //         title: 'CS Undergraduate',
+    //         affiliation: 'School of Computer Science and Technology, Zhejiang University',
+    //         description: 'Member of Mixed Class in Chu Kochen Honors College',
+    //         src: './imgs/zju.png'
+    //     },
+    // ],
     news: [
         {
             date: '05/2025',
@@ -60,7 +60,7 @@ const data = {
             city: 'Hangzhou',
             country: 'China',
             title: 'CS PH.D.',
-            description: 'Data Mining, Supervised by Prof. Yingcai Wu',
+            description: 'Data Mining | HCI, Supervised by Prof. Yingcai Wu',
             affiliation: 'School of Computer Science and Technology, Zhejiang University',
             src: './imgs/zju.png'
         },
