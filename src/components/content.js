@@ -108,11 +108,11 @@ const data = {
         ],
     awards: [
         {
-            title: 'Award of Honor for Graduate',
+            title: 'Award of Honor for Graduate of Zhejiang University',
             date: '2024',
         },
         {
-            title: 'Graduate with Merit A Performance',
+            title: 'Graduate with Merit A Performance of Zhejiang University',
             date: '2024',
         },
         {

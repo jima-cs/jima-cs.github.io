@@ -109,14 +109,14 @@ function App() {
 
 
             {/* <div ><a style={{color:'#000'}} href="https://beian.miit.gov.cn/" target="_blank">浙ICP备2024062276号-1</a></div> */}
-            <div style={{textAlign:'center',color:'#000'}}>
+            <div style={{textAlign:'center',color:'#000',fontSize:'small'}}>
                 <span style={{color:'#000'}}>
-                    <a href="http://beian.miit.gov.cn/" target="_blank" rel="nofollow noopener" style={{color:'#000'}}>
+                    <a href="http://beian.miit.gov.cn/" target="_blank" rel="nofollow noopener" style={{color:'#8f918f'}}>
                     浙ICP备2024062276号-1
                     </a>
                 </span>
                 <span>
-                    <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010602013435" rel="nofollow noopener" class="beian-police" target="_blank" style={{color:'#000'}}>
+                    <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010602013435" rel="nofollow noopener" class="beian-police" target="_blank" style={{color:'#8f918f'}}>
                        浙公网安备33010602013435号
                     </a>
                 </span>
