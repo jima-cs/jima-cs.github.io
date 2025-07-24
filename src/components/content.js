@@ -35,7 +35,7 @@ const data = {
     news: [
         {
             date: '05/2025',
-            content: "Our paper titled “T3Set: A Multimodal Dataset with Targeted Suggestions for LLM-based Virtual Coach in Table Tennis Training” is accepted by ACM KDD 2025 (dataset track)! Paper will be released soon.",
+            content: "Our paper titled “T3Set: A Multimodal Dataset with Targeted Suggestions for LLM-based Virtual Coach in Table Tennis Training” is accepted by ACM KDD 2025! Paper will be released soon.",
             url: "https://kdd2025.kdd.org/"
         },
         {
