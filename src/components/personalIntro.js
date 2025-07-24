@@ -43,7 +43,7 @@ const usePCStyles = makeStyles(theme => ({
 
 const useMBStyles = makeStyles(theme => ({
     main: {
-        margin: '20px'
+        margin: '15px'
     },
     avatar: {
         display: 'block',

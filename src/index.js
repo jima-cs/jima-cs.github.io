@@ -9,6 +9,8 @@ import data from "./components/content";
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import './index.css';
 import News from './components/News'
+import Services from "./components/Services";
+import Awards from "./components/Awards";
 
 
 const usePCStyles = makeStyles(theme => ({
@@ -100,13 +102,11 @@ function App() {
                 <Timeline experience={data.experience} />
                 <News news={data.news} />
                 <Publications publications={data.publications} />
-                {/* <div>
-                    <h1>Life</h1>
-                    <h3>My Sweet</h3>
-                    <img src='./imgs/s1.jpg' width={400}></img>
-                    <img src='/imgs/s2.jpg'  width={400} style={{marginLeft:50}}></img>
-                </div> */}
+                <Services services={data.services} />
+                <Awards awareness={data.awards} />
+
             </div>
+
 
             {/* <div ><a style={{color:'#000'}} href="https://beian.miit.gov.cn/" target="_blank">浙ICP备2024062276号-1</a></div> */}
             <div style={{textAlign:'center',color:'#000'}}>

@@ -60,7 +60,7 @@ const data = {
             city: 'Hangzhou',
             country: 'China',
             title: 'CS PH.D.',
-            description: 'VIS & HCI,Supervised by Prof. Yingcai Wu',
+            description: 'Data Mining, Supervised by Prof. Yingcai Wu',
             affiliation: 'School of Computer Science and Technology, Zhejiang University',
             src: './imgs/zju.png'
         },
@@ -70,7 +70,7 @@ const data = {
             country: 'China',
             title: 'CS B.E.',
             affiliation: 'School of Computer Science and Technology, Zhejiang University',
-            description: 'Member of Mixed Class in Chu Kochen Honors College.',
+            description: 'VIS4Sports, Supervised by Prof. Yingcai Wu since 2020. Member of Mixed Class in Chu Kochen Honors College.',
             src: './imgs/zju.png'
         },
     ],
@@ -80,7 +80,7 @@ const data = {
             authors: 'Ji Ma, Jiale Wu, Haoyu Wang, Yanze Zhang, Xiao Xie, Zheng Zhou, Hui Zhang, Jiachen Wang, Yingcai Wu',
             conference: 'The 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining (ACM KDD\'25) (CCF-A)',
             paper_url: 'https://zjuidg.org/source/projects/t3set/t3set.pdf',
-            video_url: '',
+            video_url: 'https://youtu.be/fW734qv0CT4',
             code_url: 'https://github.com/jima-cs/t3set',
             src: './imgs/t3set.png'
         },
@@ -102,7 +102,49 @@ const data = {
             code_url: '',
             src: './imgs/tacprint.png'
         },
-    ]
+    ],
+    services: [
+        {title: 'Teaching Assistant - History of Computer Thoughts, Zhejiang University', date: '2025', description: 'History of Computer Thoughts, Zhejiang University'}
+        ],
+    awards: [
+        {
+            title: 'Award of Honor for Graduate',
+            date: '2024',
+        },
+        {
+            title: 'Graduate with Merit A Performance',
+            date: '2024',
+        },
+        {
+          title: 'Outstanding Graduate Awards of Zhejiang University',
+          date: '2023'
+        },
+        {
+            title: 'Awardee of National Undergraduate Training Program for Innovation and Entrepreneurship',
+            date: '2021',
+        },
+        {
+            title: 'First-prize Scholarship of Zhejiang University',
+            date: '2020',
+        },
+        {
+            title: 'Second Prize in National Olympiad in Mathematics in Provinces',
+            date: '2018',
+        },
+        {
+            title: 'Second Prize in National Olympiad in Physics in Provinces',
+            date: '2018',
+        },{
+            title: 'Third Prize in National Olympiad in Chemistry in Provinces',
+            date: '2018',
+        },
+        {
+            title: 'Second Prize in National Olympiad in Biology in Provinces',
+            date: '2018',
+        }
+
+
+]
 };
 
 

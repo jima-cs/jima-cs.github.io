@@ -147,7 +147,7 @@ function PublicationElement(props) {
                     <Button
                         target="_blank"
                         href={element.paper_url}
-                        variant="contained"className={classes.button}>
+                        variant="contained" className={classes.button}>
                         Paper
                     </Button>
                     {
