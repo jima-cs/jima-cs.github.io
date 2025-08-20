@@ -1,10 +1,12 @@
+import React from "react";
+
 const data = {
     intro: "Hi! I am Ji Ma(马骥). I am an CS Ph.D. student at State Key Lab of CAD&CG, Zhejiang University, advised by Prof. Yingcai Wu. ",
     contact: [
         {
             src: './imgs/email.png',
-            name: 'jima.cs@outlook.com',
-            link: 'mailto:jima.cs@outlook.com'
+            name: 'jimazju [at] gmail [dot] com',
+            link: 'mailto:jimazju@gmail.com'
         },
         {
             src: './imgs/googlescholar.png',
@@ -104,7 +106,9 @@ const data = {
         },
     ],
     services: [
-        {title: 'Teaching Assistant - History of Computer Thoughts, Zhejiang University', date: '2025', description: 'History of Computer Thoughts, Zhejiang University'}
+        {title: 'Teaching Assistant - History of Computer Thoughts, Zhejiang University', date: '2025', description: 'History of Computer Thoughts, Zhejiang University'},
+        {title: 'The chief architect of the Big Data Platform for Chinese National Table Tennis Team. The previous chief architect is Jiang Wu.', date: '2024 - ongoing'},
+        {title: 'Conference Reviewer: KDD’25 (ADS Track), KDD’25 (DB Track)', date: '2025'}
         ],
     awards: [
         {

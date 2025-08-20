@@ -104,9 +104,6 @@ function PersonalIntro(props) {
                                 Yingcai Wu</a>.
                             </p>
                             <p>
-                                I now serve as the chief architect of <i>the Big Data Platform for Chinese National Table Tennis Team</i>. The previous chief architect is <a href={"https://wujiang5521.github.io/?page=research"}>Jiang Wu</a>.
-                            </p>
-                            <p>
                                 I love running. I am a core committee member and a pacer for the Kuafu Running Club @ZJU (More than 1600 student runners).<br/>
                                 <i>Running is like the flow of water, quiet but powerful. ——Kipchoge</i>
                             </p>
