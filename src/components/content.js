@@ -99,7 +99,7 @@ const data = {
             title: 'TacPrint: Visualizing the Biomechanical Fingerprint in Table Tennis',
             authors: 'Jiachen Wang, Ji Ma, Zheng Zhou, Xiao Xie, Hui Zhang, Yingcai Wu, Huamin Qu',
             conference: 'IEEE Transactions on Visualization and Computer Graphics (CCF-A, Top Journal in Visualization)',
-            paper_url: 'https://ieeexplore.ieee.org/document/10500518',
+            paper_url: 'https://zjuidg.org/source/projects/TacPrint/TacPrint.pdf',
             video_url: 'https://ieeexplore.ieee.org/ielx7/2945/4359476/10500518/supp1-3388555.mp4',
             code_url: '',
             src: './imgs/tacprint.png'
