@@ -85,7 +85,7 @@ function PersonalIntro(props) {
     const classes = matches? style1: style2;
     return (
         <div className={classes.main}>
-            <Avatar src = './imgs/mj/maji.png' className = {classes.avatar}/>
+            <Avatar src = './imgs/mj/maji.jpg' className = {classes.avatar}/>
             <div className={classes.introBlock}>
                 <Typography className = {classes.intro}>
                     {
