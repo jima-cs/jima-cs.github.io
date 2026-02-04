@@ -36,25 +36,25 @@ const data = {
     // ],
     news: [
         {
-            date: '05/2025',
-            content: "Our paper titled “T3Set: A Multimodal Dataset with Targeted Suggestions for LLM-based Virtual Coach in Table Tennis Training” is accepted by ACM KDD 2025! Paper will be released soon.",
-            url: "https://kdd2025.kdd.org/"
+            date: '08/2025',
+            content: "Our paper T3Set is accepted by ACM KDD 2025!",
+            // url: "https://kdd2025.kdd.org/"
         },
-        {
-            date: '10/2024',
-            content: "Zhejiang University’s running team claimed the Elite University Group title at the 2024 Nike University Elite Challenge, with members of the Kuafu Running Club playing a pivotal role.",
-            url: "https://www.zju.edu.cn/english/2024/1021/c19573a2977710/page.psp"
-        },
+        // {
+        //     date: '10/2024',
+        //     content: "Zhejiang University’s running team claimed the Elite University Group title at the 2024 Nike University Elite Challenge, with members of the Kuafu Running Club playing a pivotal role.",
+        //     url: "https://www.zju.edu.cn/english/2024/1021/c19573a2977710/page.psp"
+        // },
         {
             date: '12/2023',
             content: "Our paper TacPrint is accepted by IEEE PacificVis 2024 TVCG journal track."
         },
 
-        {
-            date: '08/2023',
-            content: "I was interviewed by the press of Chu KoChen Honors College@ZJU",
-            url: "https://mp.weixin.qq.com/s/DQAhExhmRTO7Sw6VgjpxeQ"
-        }
+        // {
+        //     date: '08/2023',
+        //     content: "I was interviewed by the press of Chu KoChen Honors College@ZJU",
+        //     url: "https://mp.weixin.qq.com/s/DQAhExhmRTO7Sw6VgjpxeQ"
+        // }
     ],
     experience: [
         {
@@ -80,35 +80,45 @@ const data = {
         {
             title: 'T3Set: A Multimodal Dataset with Targeted Suggestions for LLM-based Virtual Coach in Table Tennis Training',
             authors: 'Ji Ma, Jiale Wu, Haoyu Wang, Yanze Zhang, Xiao Xie, Zheng Zhou, Hui Zhang, Jiachen Wang, Yingcai Wu',
-            conference: 'The 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining (ACM KDD\'25) (CCF-A)',
+            conference: 'The 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining (ACM KDD\'25) (CCF-A) - 2025',
             paper_url: 'https://zjuidg.org/source/projects/t3set/t3set.pdf',
             video_url: 'https://youtu.be/fW734qv0CT4',
             code_url: 'https://github.com/jima-cs/t3set',
             src: './imgs/t3set.png'
         },
         {
-            title: 'Tac-Trainer: A Visual Analytics System for IoT-based Racket Sports Training',
-            authors: 'Jiachen Wang, Ji Ma, Kangping Hu, Zheng Zhou, Hui Zhang, Xiao Xie, Yingcai Wu',
-            conference: 'IEEE Transactions on Visualization and Computer Graphics (CCF-A, Top Journal in Visualization)',
-            paper_url: 'https://zjuidg.org/source/projects/TacTrainer/TacTrainer.pdf',
-            video_url: 'https://youtu.be/nriqaQUjZ1E',
+            title: 'CustMatcher: Enhancing preference-driven people-to-people recommendation',
+            authors: 'Ji Ma,  Jiachen Wang, Xiao Xie, Zheng Zhou, Hui Zhang, Yingcai Wu',
+            conference: 'Visual Informatics - 2025',
+            paper_url: 'https://www.sciencedirect.com/science/article/pii/S2468502X25000816',
+            video_url: '',
             code_url: '',
-            src: './imgs/tactrainer.png'
+            src: './imgs/CustMatcher.png'
         },
         {
             title: 'TacPrint: Visualizing the Biomechanical Fingerprint in Table Tennis',
             authors: 'Jiachen Wang, Ji Ma, Zheng Zhou, Xiao Xie, Hui Zhang, Yingcai Wu, Huamin Qu',
-            conference: 'IEEE Transactions on Visualization and Computer Graphics (CCF-A, Top Journal in Visualization)',
+            conference: 'IEEE Transactions on Visualization and Computer Graphics (CCF-A, Top Journal in Visualization) - 2024',
             paper_url: 'https://zjuidg.org/source/projects/TacPrint/TacPrint.pdf',
             video_url: 'https://ieeexplore.ieee.org/ielx7/2945/4359476/10500518/supp1-3388555.mp4',
             code_url: '',
             src: './imgs/tacprint.png'
         },
+        {
+            title: 'Tac-Trainer: A Visual Analytics System for IoT-based Racket Sports Training',
+            authors: 'Jiachen Wang, Ji Ma, Kangping Hu, Zheng Zhou, Hui Zhang, Xiao Xie, Yingcai Wu',
+            conference: 'IEEE Transactions on Visualization and Computer Graphics (CCF-A, Top Journal in Visualization) - 2023',
+            paper_url: 'https://zjuidg.org/source/projects/TacTrainer/TacTrainer.pdf',
+            video_url: 'https://youtu.be/nriqaQUjZ1E',
+            code_url: '',
+            src: './imgs/tactrainer.png'
+        },
+
     ],
     services: [
-        {title: 'Teaching Assistant - History of Computer Thoughts, Zhejiang University', date: '2025', description: 'History of Computer Thoughts, Zhejiang University'},
-        {title: 'The chief architect of the Big Data Platform for Chinese National Table Tennis Team. The previous chief architect is Jiang Wu.', date: '2024 - ongoing'},
-        {title: 'Conference Reviewer: KDD’25 (ADS Track), KDD’25 (DB Track)', date: '2025'}
+
+        {title: 'Conference Reviewer: KDD’25 (ADS Track), KDD’25 (DB Track)', date: '2025'},
+        {title: 'Teaching Assistant - History of Computer Thoughts, Zhejiang University', date: '2025', description: 'History of Computer Thoughts, Zhejiang University'}
         ],
     awards: [
         {

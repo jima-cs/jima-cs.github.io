@@ -93,16 +93,17 @@ function PersonalIntro(props) {
                             <p>
                                 Hi! I am Ji Ma(马骥). I am a CS Ph.D. candidate at State Key Lab of CAD&CG, Zhejiang
                                 University, advised by <a href="http://www.ycwu.org/">Prof. Yingcai Wu</a>.
-                                My research lies at the intersection between Data Mining and Sports Analytics.
-                                Specifically, I am currently interested in optimizing table tennis training with LLM and Iot.
+                                My research interests lie in Sports Data Mining and Human-Centric AI.
+                                I focus on incorporating professional domain knowledge into data-driven models to democratize elite sports expertise.
+                                Specifically, I build multimodal systems powered by LLMs and Iot/Video Sensing to enable intelligent coaching and automated tactical analysis in Table Tennis.
                             </p>
-                            <p>
-                                Previously, I got my bachelor's degree in Computer Science at School of Computer Science
-                                and Chu Kochen Honors College, Zhejiang University.
-                                During my undergraduate, I was fortunate to work closely with <a
-                                href="http://www.wjc-vis.com/">Dr.Jiachen Wang</a> on visual analytics for competitive sports, advised by <a href="http://www.ycwu.org/">Prof.
-                                Yingcai Wu</a>.
-                            </p>
+                            {/*<p>*/}
+                            {/*    Previously, I got my bachelor's degree in Computer Science at School of Computer Science*/}
+                            {/*    and Chu Kochen Honors College, Zhejiang University.*/}
+                            {/*    During my undergraduate, I was fortunate to work closely with <a*/}
+                            {/*    href="http://www.wjc-vis.com/">Dr.Jiachen Wang</a> on visual analytics for competitive sports, advised by <a href="http://www.ycwu.org/">Prof.*/}
+                            {/*    Yingcai Wu</a>.*/}
+                            {/*</p>*/}
                             <p>
                                 I love running. I am a core committee member and a pacer for the Kuafu Running Club @ZJU (More than 1600 student runners).<br/>
                                 <i>Running is like the flow of water, quiet but powerful. ——Kipchoge</i>
