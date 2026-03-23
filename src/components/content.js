@@ -89,7 +89,7 @@ const data = {
         {
             title: 'CustMatcher: Enhancing preference-driven people-to-people recommendation',
             authors: 'Ji Ma,  Jiachen Wang, Xiao Xie, Zheng Zhou, Hui Zhang, Yingcai Wu',
-            conference: 'Visual Informatics - 2025',
+            conference: 'Visual Informatics (JCR-Q1) - 2025',
             paper_url: 'https://www.sciencedirect.com/science/article/pii/S2468502X25000816',
             video_url: '',
             code_url: '',
@@ -117,7 +117,7 @@ const data = {
     ],
     services: [
 
-        {title: 'Conference Reviewer: KDD’25 (ADS Track), KDD’25 (DB Track)', date: '2025'},
+        // {title: 'Conference Reviewer: KDD’26 (ADS Track), KDD’26 (DB Track)', date: '2025'},
         {title: 'Teaching Assistant - History of Computer Thoughts, Zhejiang University', date: '2025', description: 'History of Computer Thoughts, Zhejiang University'}
         ],
     awards: [
