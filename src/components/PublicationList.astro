@@ -1,0 +1,115 @@
+---
+import { Database, ExternalLink, FileText, Github, Play, Presentation } from 'lucide-astro';
+import { categoryLabels, publications, type PublicationLinkType } from '../data/site';
+
+const years = [...new Set(publications.map((publication) => publication.year))].sort((a, b) => b - a);
+const iconByType = {
+  paper: FileText,
+  video: Play,
+  code: Github,
+  project: ExternalLink,
+  dataset: Database,
+} satisfies Record<PublicationLinkType, typeof FileText>;
+---
+
+<div class="publication-filter" role="tablist" aria-label="Filter publications by research area">
+  <button class="filter-tab is-active" type="button" role="tab" aria-selected="true" data-filter="all">
+    All
+  </button>
+  {Object.entries(categoryLabels).map(([value, label]) => (
+    <button class="filter-tab" type="button" role="tab" aria-selected="false" tabindex="-1" data-filter={value}>
+      {label}
+    </button>
+  ))}
+</div>
+
+<div class="publication-years" aria-live="polite">
+  {years.map((year) => (
+    <section class="publication-year" data-year={year} aria-labelledby={`publications-${year}`}>
+      <h3 id={`publications-${year}`} class="year-heading">{year}</h3>
+      <div class="publication-stack">
+        {publications.filter((publication) => publication.year === year).map((publication) => (
+          <article
+            class="publication-card"
+            data-publication
+            data-categories={publication.categories.join(',')}
+          >
+            <div class="publication-media">
+              <img src={publication.image} alt={`Preview image for ${publication.title}`} loading="lazy" />
+            </div>
+            <div class="publication-body">
+              <div class="publication-tags" aria-label="Research areas">
+                {publication.categories.map((category) => (
+                  <span>{categoryLabels[category]}</span>
+                ))}
+              </div>
+              <h4>{publication.title}</h4>
+              <p class="authors">
+                {publication.authors.map((author, index) => (
+                  <>
+                    {index > 0 && ', '}
+                    {author.isMe ? <strong>{author.name}</strong> : author.name}
+                  </>
+                ))}
+              </p>
+              <p class="venue">{publication.venue}</p>
+              <div class="publication-links" aria-label={`Links for ${publication.title}`}>
+                {publication.links.map((link) => {
+                  const Icon = iconByType[link.type] ?? Presentation;
+                  return (
+                    <a href={link.url} target="_blank" rel="noopener noreferrer">
+                      <Icon size={15} strokeWidth={1.9} aria-hidden="true" />
+                      <span>{link.label}</span>
+                    </a>
+                  );
+                })}
+              </div>
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+  ))}
+  <p class="empty-publications" hidden>No publications in this category yet.</p>
+</div>
+
+<script>
+  const tabs = Array.from(document.querySelectorAll<HTMLButtonElement>('[data-filter]'));
+  const cards = Array.from(document.querySelectorAll<HTMLElement>('[data-publication]'));
+  const yearGroups = Array.from(document.querySelectorAll<HTMLElement>('[data-year]'));
+  const emptyState = document.querySelector<HTMLElement>('.empty-publications');
+
+  function applyFilter(selected: HTMLButtonElement) {
+    const filter = selected.dataset.filter ?? 'all';
+
+    tabs.forEach((tab) => {
+      const active = tab === selected;
+      tab.classList.toggle('is-active', active);
+      tab.setAttribute('aria-selected', String(active));
+      tab.tabIndex = active ? 0 : -1;
+    });
+
+    cards.forEach((card) => {
+      const categories = (card.dataset.categories ?? '').split(',');
+      card.hidden = filter !== 'all' && !categories.includes(filter);
+    });
+
+    yearGroups.forEach((group) => {
+      group.hidden = !group.querySelector('[data-publication]:not([hidden])');
+    });
+
+    if (emptyState) emptyState.hidden = cards.some((card) => !card.hidden);
+  }
+
+  tabs.forEach((tab, index) => {
+    tab.addEventListener('click', () => applyFilter(tab));
+    tab.addEventListener('keydown', (event) => {
+      if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
+      event.preventDefault();
+      const direction = event.key === 'ArrowRight' ? 1 : -1;
+      const next = tabs[(index + direction + tabs.length) % tabs.length];
+      next.focus();
+      applyFilter(next);
+    });
+  });
+</script>

@@ -3,40 +3,26 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://jima-cs.github.io/",
+  "type": "module",
   "dependencies": {
-    "@material-ui/core": "^4.11.3",
-    "@material-ui/styles": "^4.11.3",
-    "gh-pages": "^2.1.1",
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2",
-    "react-scripts": "3.2.0"
+    "@astrojs/mdx": "^4.0.0",
+    "astro": "^5.0.0",
+    "gh-pages": "^6.0.0",
+    "lucide-astro": "^0.468.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "predeploy": "yarn run build",
+    "start": "astro dev",
+    "dev": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "test": "astro check",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "eject": "react-scripts eject",
     "copy": "cp -r ./build/*.* ./docs",
     "publish": "scp -r ./docs root@aliyun:/usr/local/projects/mypage/jima-cs.github.io/"
   },
-  "resolutions": {
-    "react-error-overlay": "6.0.9"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "@astrojs/check": "^0.9.10",
+    "typescript": "^5.9.3"
   }
 }
