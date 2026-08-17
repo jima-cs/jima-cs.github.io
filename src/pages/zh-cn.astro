@@ -30,7 +30,7 @@ const zhServices = [
 
 ];
 const runningServiceItems = [
-  { year: '2022.8-2026.5', title: '领队组组长', detail: '主持负责夸父长跑联盟例跑事务。辐射浙大师生逾1600名，社团活动年参与人次超5000。' },
+  { year: '2022.8-2026.5', title: '领队组组长', detail: '负责夸父长跑联盟例跑事务。辐射浙大师生逾1600名，社团活动年参与人次超5000。' },
   { year: '2024.4-2025.5', title: '夸父长跑联盟社团申请负责人', detail: '牵头申请成立浙江大学学生夸父长跑联盟社团，填补浙江大学长期没有学生长跑社团的空白。' },
   { year: '2025.6-2026.6', title: '夸父长跑联盟社团负责人', detail: '第一任社团负责人兼办公室部长，领队组组长。夸父长跑联盟训练队曾获2025年高校百英里总决赛第6名, 高校百英里上海站冠军。' },
   { year: '2024.10-2026.5', title: '助理教练', detail: '浙江大学教职工跑协学生助理教练' },
@@ -62,7 +62,7 @@ const zhAwards = [
         <p class="eyebrow">CS PHD</p>
         <h1 id="page-title">马骥 <span>Ji Ma</span></h1>
         <div id="about" class="about-copy">
-          <p>马骥，浙江大学 CAD&amp;CG 国家重点实验室计算机科学与技术博士生，师从巫英才教授。</p>
+          <p>马骥，浙江大学 CAD&amp;CG 全国重点实验室计算机科学与技术博士生，师从巫英才教授。</p>
           <p>研究领域为体育人工智能和数据挖掘，关注如何将领域专家知识融入数据驱动的AI模型。目前的工作聚焦于利用多模态感知、具身智能和大模型，探索乒乓球智能教练与自动技战术分析。</p>
 
 
@@ -95,7 +95,7 @@ const zhAwards = [
           </div>
         </section>
         <section id="service" class="content-section" aria-labelledby="service-title">
-          <div class="section-heading"><h2 id="service-title">服务经历</h2></div>
+          <div class="section-heading"><h2 id="service-title">跑步生活</h2></div>
           <div class="service-list service-list--plain">
             {runningServiceItems.map((item) => <article class="service-item"><time>{item.year}</time><div><h4>{item.title}</h4><p>{item.detail}</p></div></article>)}
           </div>
@@ -103,7 +103,7 @@ const zhAwards = [
       </div>
 
       <aside class="secondary-column" aria-label="其他信息">
-        <section class="side-section"><h2>科研与工程</h2><ul class="compact-list">{researchEngineeringServiceItems.map((item) => <li><time>{item.year}</time><div><strong>{item.title}</strong><span>{item.detail}</span></div></li>)}</ul></section>
+        <section class="side-section"><h2>服务经历</h2><ul class="compact-list">{researchEngineeringServiceItems.map((item) => <li><time>{item.year}</time><div><strong>{item.title}</strong><span>{item.detail}</span></div></li>)}</ul></section>
         <section class="side-section"><h2>获奖与荣誉</h2><ul class="compact-list awards-list">{awards.map((item, index) => <li><time>{item.year}</time><span>{zhAwards[index]}</span></li>)}</ul></section>
       </aside>
     </div>
