@@ -135,7 +135,7 @@ footer { background: var(--navy); color: #c7d3dc; }
   .publication-card { grid-template-columns: 1fr; }
   .publication-media { height: auto; aspect-ratio: 16 / 9; }
   .secondary-column { grid-template-columns: 1fr; }
-  .service-item { grid-template-columns: 76px minmax(0, 1fr); gap: .75rem; }
+  .service-item { grid-template-columns: 1fr; gap: .2rem; }
   .footer-inner { flex-direction: column; align-items: flex-start; justify-content: center; padding-block: 1.3rem; }
   .registration-links { justify-content: flex-start; }
 }
