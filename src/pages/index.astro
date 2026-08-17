@@ -6,9 +6,6 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import { awards, experience, news, services, site } from '../data/site';
 
 const description = 'Academic homepage of Ji Ma, a Computer Science Ph.D. candidate at Zhejiang University working on large language models, embodied intelligence, sports simulation, and table tennis AI.';
-const chineseHomepageUrl = import.meta.env.DEV
-  ? '/zh-cn/'
-  : 'https://csjima.site/zh-cn/';
 const personJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Person',
@@ -36,7 +33,7 @@ const personJsonLd = {
         <a href="#news">News</a>
         <a href="#publications">Publications</a>
         <a href="#experience">Experience</a>
-        <a href={chineseHomepageUrl} lang="zh-CN">中文</a>
+        <a href="/zh-cn/" lang="zh-CN">中文</a>
       </nav>
     </div>
   </header>
