@@ -16,10 +16,10 @@
     "build": "astro check && astro build",
     "preview": "astro preview",
     "test": "astro check",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "copy": "cp -r ./build/*.* ./docs",
-    "publish": "scp -r ./docs root@aliyun:/usr/local/projects/mypage/jima-cs.github.io/"
+    "predeploy": "npm run build && node scripts/prepare-github-pages.mjs",
+    "deploy": "gh-pages -d docs",
+    "copy": "node scripts/prepare-github-pages.mjs",
+    "publish": "scp -r ./build/* root@aliyun:/usr/local/projects/mypage/jima-cs.github.io/"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.10",

@@ -93,12 +93,19 @@ nav a:hover { color: var(--accent); }
 .timeline-item p { margin: .3rem 0 0; color: var(--muted); font-size: .82rem; }
 .timeline-item .timeline-affiliation { margin: 0; color: #405766; font-weight: 600; }
 
+.service-list--plain { padding: 0; }
+.service-item { display: grid; grid-template-columns: 88px minmax(0, 1fr); gap: 1rem; padding: 1rem 0; border-bottom: 1px solid var(--line); }
+.service-item:last-child { border-bottom: 0; }
+.service-item time { color: var(--accent); font-size: .78rem; font-weight: 700; white-space: nowrap; }
+.service-item h4 { margin: 0; color: var(--navy); font-size: .96rem; }
+.service-item p { margin: .2rem 0 0; color: var(--muted); font-size: .86rem; }
+
 .secondary-column { position: sticky; top: 98px; display: grid; gap: 2rem; padding-top: 2rem; }
 .side-section { padding-top: 1.2rem; border-top: 2px solid var(--navy); }
 .side-section h2 { margin: 0 0 1rem; color: var(--navy); font-family: var(--serif); font-size: 1.35rem; }
 .compact-list { display: grid; gap: .9rem; margin: 0; padding: 0; list-style: none; }
-.compact-list li { display: grid; grid-template-columns: 38px 1fr; gap: .55rem; color: var(--muted); font-size: .75rem; line-height: 1.45; }
-.compact-list time { color: var(--accent); font-weight: 700; }
+.compact-list li { display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: .55rem; color: var(--muted); font-size: .75rem; line-height: 1.45; }
+.compact-list time { color: var(--accent); font-weight: 700; white-space: nowrap; }
 .compact-list strong, .compact-list span { display: block; }
 .compact-list strong { color: var(--ink); font-size: .78rem; }
 
@@ -128,6 +135,7 @@ footer { background: var(--navy); color: #c7d3dc; }
   .publication-card { grid-template-columns: 1fr; }
   .publication-media { height: auto; aspect-ratio: 16 / 9; }
   .secondary-column { grid-template-columns: 1fr; }
+  .service-item { grid-template-columns: 76px minmax(0, 1fr); gap: .75rem; }
   .footer-inner { flex-direction: column; align-items: flex-start; justify-content: center; padding-block: 1.3rem; }
   .registration-links { justify-content: flex-start; }
 }

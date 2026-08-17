@@ -1,8 +1,21 @@
 ---
 import { Database, ExternalLink, FileText, Github, Play, Presentation } from 'lucide-astro';
-import { categoryLabels, publications, type PublicationLinkType } from '../data/site';
+import { categoryLabels, publications, type PublicationCategory, type PublicationLinkType } from '../data/site';
 
 const years = [...new Set(publications.map((publication) => publication.year))].sort((a, b) => b - a);
+interface Props {
+  labels?: Record<PublicationCategory, string>;
+  allLabel?: string;
+  filterAriaLabel?: string;
+  emptyMessage?: string;
+}
+
+const {
+  labels = categoryLabels,
+  allLabel = 'All',
+  filterAriaLabel = 'Filter publications by research area',
+  emptyMessage = 'No publications in this category yet.',
+} = Astro.props;
 const iconByType = {
   paper: FileText,
   video: Play,
@@ -12,11 +25,11 @@ const iconByType = {
 } satisfies Record<PublicationLinkType, typeof FileText>;
 ---
 
-<div class="publication-filter" role="tablist" aria-label="Filter publications by research area">
+<div class="publication-filter" role="tablist" aria-label={filterAriaLabel}>
   <button class="filter-tab is-active" type="button" role="tab" aria-selected="true" data-filter="all">
-    All
+    {allLabel}
   </button>
-  {Object.entries(categoryLabels).map(([value, label]) => (
+  {Object.entries(labels).map(([value, label]) => (
     <button class="filter-tab" type="button" role="tab" aria-selected="false" tabindex="-1" data-filter={value}>
       {label}
     </button>
@@ -40,7 +53,7 @@ const iconByType = {
             <div class="publication-body">
               <div class="publication-tags" aria-label="Research areas">
                 {publication.categories.map((category) => (
-                  <span>{categoryLabels[category]}</span>
+                  <span>{labels[category]}</span>
                 ))}
               </div>
               <h4>{publication.title}</h4>
@@ -70,7 +83,7 @@ const iconByType = {
       </div>
     </section>
   ))}
-  <p class="empty-publications" hidden>No publications in this category yet.</p>
+  <p class="empty-publications" hidden>{emptyMessage}</p>
 </div>
 
 <script>
