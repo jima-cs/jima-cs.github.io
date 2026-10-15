@@ -20,7 +20,7 @@ export const site = {
   emailLabel: 'jimazju [at] gmail [dot] com',
   email: 'mailto:jimazju@gmail.com',
   scholar: 'https://scholar.google.com/citations?user=vz6ryCwAAAAJ&hl=en',
-  researchAreas: ['Data Mining','Large Language Models', 'Embodied Intelligence', 'Computer Vision', 'AI4Sports', 'Multi-Modality'],
+  researchAreas: ['Data Mining','Large Language Models', 'Embodied Intelligence',  'AI4Sports'],
 };
 
 export const categoryLabels: Record<PublicationCategory, string> = {
@@ -99,8 +99,26 @@ export const publications: Publication[] = [
 ];
 
 export const news = [
-  { date: 'Aug. 2025', text: "Our paper T3Set was accepted by ACM KDD 2025.", url: 'https://zjuidg.org/source/projects/t3set/t3set.pdf' },
-  { date: 'Dec. 2023', text: 'Our paper TacPrint was accepted by the IEEE PacificVis 2024 TVCG journal track.', url: 'https://zjuidg.org/source/projects/TacPrint/TacPrint.pdf' },
+  { date: 'Jun. 2025', text: "Kuafu Running Club was awarded 8k CNY from the \"Qing-Miao Fund.\""},
+  { date: 'Dec. 2025', text: "Kuafu Running Club placed 6th in the 2025 G100 Final."},
+  { date: 'Nov. 2025', text: "Kuafu Running Club won the championship in the 2025 G100 (Huadong)."},
+  {date: 'Jul. 2025', text:"Attended ChinaVIS 2025."},
+  { date: 'Jun. 2025', text: "Our paper T3Set was accepted by ACM KDD 2025." },
+  {date: 'Jun. 2025', text:"Kuafu Running Club was officially established as a registered student organization, filling the long-standing void of a long-distance running association at Zhejiang University."},
+  { date: 'Oct. 2024', text: 'Became a student assistant coach for the Zhejiang University Faculty and Staff Running Association.' },
+  { date: 'Dec. 2023', text: 'Became a Graduate Peer Psychological Counselor.' },
+  { date: 'Dec. 2023', text: 'Our paper TacPrint was accepted by the IEEE PacificVis 2024 TVCG journal track.'},
+  { date: 'Sep. 2022', text: 'Ranked 1st in the School of Computer Science’s interview for direct admission to the PhD program from undergraduate study.'},
+  { date: 'Jul. 2022', text: "Our paper Tac-Trainer was accepted by IEEE VIS 2022." },
+  { date: 'May. 2022', text: 'Finished the National Undergraduate Training Program for Innovation and Entrepreneurship.'},
+  { date: 'May. 2020', text: 'Joined the ZJUIDG Lab led by Prof. Yingcai Wu.'},
+  { date: 'Aug. 2019', text: 'Admitted to the Mixed Class at Zhejiang University’s Chu Kochen Honors College'},
+  { date: 'Jun. 2019', text: 'Participated in the selection processes for Tsinghua University’s Leading Talent Program and Peking University’s Boya Talent Program.'},
+  { date: 'Nov. 2018', text: 'Ranked 4th throughout the Province in the Tsinghua University Standard Scholastic Assessment Test (THUSSAT).'},
+  { date: 'Jul. 2018', text: 'Attended Tsinghua University’s Summer School for High School Students.'},
+  { date: 'Nov. 2016', text: 'Attended a dialogue with Sir J. Fraser Stoddart, recipient of the 2016 Nobel Prize in Chemistry, at Tianjin University.'},
+  { date: 'Jul. 2016', text: 'Citywide top scorer in the high school entrance examination (11 points below full marks).'},
+
 ];
 
 export const experience = [
@@ -124,11 +142,9 @@ export const services = [
 export const awards = [
   { year: '2025', title: 'Outstanding Graduate Leader Award of Zhejiang University' },
   { year: '2024', title: 'Award of Honor for Graduate of Zhejiang University' },
-  { year: '2024', title: 'Graduate with Merit A Performance of Zhejiang University' },
   { year: '2023', title: 'Graduate Peer Psychological Counselor, Zhejiang University' },
   { year: '2023', title: 'Outstanding Graduate Award of Zhejiang University' },
   { year: '2023', title: 'Certificate of Chu Kochen Honors Program of Zhejiang University' },
-  { year: '2021', title: 'National Undergraduate Training Program for Innovation and Entrepreneurship' },
   { year: '2020', title: 'First-prize Scholarship of Zhejiang University' },
   { year: '2018', title: 'Second Prize, National Olympiad in Mathematics (Provincial Level)' },
   { year: '2018', title: 'Second Prize, National Olympiad in Physics (Provincial Level)' },

@@ -1,5 +1,5 @@
 ---
-import { BookOpen, ChevronRight, Mail, MapPin } from 'lucide-astro';
+import { BookOpen, Mail, MapPin } from 'lucide-astro';
 import About from '../content/about.mdx';
 import PublicationList from '../components/PublicationList.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
@@ -26,6 +26,7 @@ const personJsonLd = {
   <header class="site-header">
     <div class="header-inner">
       <a class="brand" href="#top" aria-label="Ji Ma — back to top">
+        <img class="brand-logo" src="/imgs/%E9%87%91%E9%93%B6%E8%8A%B1.jpg" alt="" aria-hidden="true" />
         <span>{site.name}</span><span class="brand-zh">{site.nameZh}</span>
       </a>
       <nav aria-label="Main navigation">
@@ -33,7 +34,6 @@ const personJsonLd = {
         <a href="#news">News</a>
         <a href="#publications">Publications</a>
         <a href="#experience">Experience</a>
-        <a href="/zh-cn/" lang="zh-CN">中文</a>
       </nav>
     </div>
   </header>
@@ -65,14 +65,11 @@ const personJsonLd = {
             <p>Updates</p>
             <h2 id="news-title">News</h2>
           </div>
-          <ol class="news-list">
+          <ol class="news-list" tabindex="0" aria-label="News updates">
             {news.map((item) => (
               <li>
                 <time>{item.date}</time>
                 <p>{item.text}</p>
-                <a href={item.url} target="_blank" rel="noopener noreferrer" aria-label={`Read more: ${item.text}`}>
-                  <ChevronRight size={18} aria-hidden="true" />
-                </a>
               </li>
             ))}
           </ol>
