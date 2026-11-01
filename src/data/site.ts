@@ -99,7 +99,8 @@ export const publications: Publication[] = [
 ];
 
 export const news = [
-  { date: 'Jun. 2025', text: "Kuafu Running Club was awarded 8k CNY from the \"Qing-Miao Fund.\""},
+  {date: 'Oct. 2026', text:"Attended ChinaGraph 2026."},
+    { date: 'Jun. 2026', text: "Kuafu Running Club was awarded 8k CNY from the \"Qing-Miao Fund.\""},
   { date: 'Dec. 2025', text: "Kuafu Running Club placed 6th in the 2025 G100 Final."},
   { date: 'Nov. 2025', text: "Kuafu Running Club won the championship in the 2025 G100 (Huadong)."},
   {date: 'Jul. 2025', text:"Attended ChinaVIS 2025."},
